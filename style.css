@@ -806,6 +806,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .nav-actions {
+        display: none;
+    }
     .hero h1 { 
         font-size: 2.5rem; 
     }
