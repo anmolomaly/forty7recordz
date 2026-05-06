@@ -110,7 +110,7 @@ ul {
 }
 
 /* =========================================
-   NAVBAR (Royal Enfield Style)
+   NAVBAR 
 ========================================= */
 .navbar {
     display: flex;
@@ -138,6 +138,14 @@ ul {
     font-weight: 900;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+
+.logo-image{
+    height: 40px;
+    border-radius: 12px;
+    margin-right: 10px;
+    position: relative;
+    top:10px
 }
 
 .nav-logo span {
@@ -549,6 +557,7 @@ ul {
     border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+
 .img-placeholder {
     height: 250px;
     background: #15151a;
@@ -559,8 +568,22 @@ ul {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 2px;
-    background-size: cover;
     background-position: center;
+}
+
+.fimg1 {
+    background-image: url('./photos/promo3.jpeg');
+    background-size:cover;
+}
+
+.fimg2 {
+    background-image: url('./photos/promo2.jpeg');
+    background-size:cover;
+}
+
+.fimg3 {
+    background-image: url('./photos/promo1.jpeg');
+    background-size:cover;
 }
 
 .artist-info {
